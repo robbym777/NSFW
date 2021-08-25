@@ -1,0 +1,21 @@
+{
+  "name": "nsfw_js",
+  "version": "1.0.0",
+  "description": "NSFW JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robby Mahendra",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.8.0",
+    "axios": "^0.21.1",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-extract-frames": "^2.0.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "nsfwjs": "^2.4.1",
+    "path": "^0.12.7"
+  }
+}
